@@ -1,0 +1,147 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    border-bottom: 3px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.eger_img {
+    margin-top: 0px;
+    margin-left: 249px;
+    width: 111px;
+}
+
+.button-container {
+    
+}
+
+button {
+    background-image: none;
+    border: 0;
+    border-radius: 17px;
+    opacity: 1;
+    padding: 9px;
+    cursor: pointer;
+    
+    margin-right: 50px;
+    margin-top: 0; 
+}
+
+
+
+.bt1:hover{
+    background-color: #b1d1e5;
+}
+
+.bt2:hover{
+    background-color: #b1d1e5;
+}
+
+.bt3:hover{
+    background-color: #b1d1e5;
+}
+
+.bt4:hover{
+    background-color: #b1d1e5;
+}
+
+
+.bt5 {
+    background-color: #D9EBF6;
+    margin-right: 200px;
+}
+
+.bt5:hover {
+    background-color: #b1d1e5;
+}
+
+
+
+
+.main_container1{
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    
+}
+
+.text_div{
+    width: 50vw;
+    height: 700px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text1{
+    margin-left: 100px;
+    height: 500px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.p1{
+    font-size: 23px;
+    color: #072739;
+}
+
+.p2{
+    font-size: 40px;
+    color: #072739;
+    margin: 0px;
+}
+
+.p3{
+    font-size: 12px;
+    color: #808185;
+}
+
+
+
+.image_div1{
+    margin-top: 50px;
+    width: 50vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.repairman{
+    width: 600px;
+    height: 550px;
+    border-radius: 30px;
+   
+}
+
+
+
+.text_button{
+    margin-top: 20px;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 50px;
+    color: white;
+}
+
+
+.three_div{
+    width: 100vw;
+    height: 600px;
+    background-color: #072739;
+}
