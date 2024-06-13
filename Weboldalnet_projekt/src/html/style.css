@@ -1,7 +1,18 @@
+
+
+.figtree-font {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 body {
     background-color: white;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -139,9 +150,139 @@ button {
     color: white;
 }
 
+.text_button:hover{
+    background-color: rgb(199, 130, 0);
+}
+
+.szivattyuContainer_div{
+    width: 100vw;
+    height: 700px;
+    background-color: #072739;
+}
+
+.klimaText_div{
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    color: #FFFF;
+    padding-top: 50px;
+}
+
+
 
 .three_div{
-    width: 100vw;
-    height: 600px;
-    background-color: #072739;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.klima_div{
+    
+    
+    width: 440px;
+    height: 350px;
+}
+
+.klima_main{
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 250px;
+}
+
+.klimaText{
+    margin: 0;
+    padding-top: 60px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #072739;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.klimaText2{
+    margin: 0;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808185;
+    padding-left: 25px;
+}
+
+.erdekel_bt{
+    margin: 0;
+    padding-left:25px ;
+    padding-top: 40px;
+   
+    color: orange;
+    background-color: none;
+    font-size: 16px;
+}
+
+.erdekel_bt:hover{
+    color: rgb(199, 130, 0);
+}
+
+.jobbragomb{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border: 2px solid #F5943A;
+}
+
+
+.legkondi_png{
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.tisztitas_div{
+    width: 440px;
+    height: 350px;
+    margin: 40px;
+}
+
+.tisztitas_main{
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.porszivo_png{
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.karbantartas_div{
+   
+    width: 440px;
+    height: 350px;
+}
+
+
+.karbantartas_main{
+    margin-top: 50px;
+    
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 250px;
+}
+
+
+.szerszam_png{
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
