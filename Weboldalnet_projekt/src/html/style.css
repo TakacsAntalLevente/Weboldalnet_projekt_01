@@ -1,11 +1,16 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
 .figtree-font {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 900;
   font-style: normal;
 }
+
 
 
 body {
@@ -13,6 +18,7 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    width: 1920px;
 }
 
 header {
@@ -30,9 +36,7 @@ header {
     width: 111px;
 }
 
-.button-container {
-    
-}
+
 
 button {
     background-image: none;
@@ -81,7 +85,7 @@ button {
     width: 100vw;
     height: 750px;
     display: flex;
-    
+    background-color: #F8F9FA;
 }
 
 .text_div{
@@ -154,7 +158,7 @@ button {
     background-color: rgb(199, 130, 0);
 }
 
-.szivattyuContainer_div{
+.klimaContainer_div{
     width: 100vw;
     height: 700px;
     background-color: #072739;
@@ -189,6 +193,16 @@ button {
 }
 
 .klima_main{
+    
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 250px;
+}
+
+.klima2_main{
+    box-shadow: 0px 0px 20px 1px lightgray;
     margin-top: 50px;
     border-radius: 20px;
     background-color: white;
@@ -220,9 +234,9 @@ button {
     margin: 0;
     padding-left:25px ;
     padding-top: 40px;
-   
+   font-weight: bold;
     color: orange;
-    background-color: none;
+    background-color: white;
     font-size: 16px;
 }
 
@@ -231,6 +245,7 @@ button {
 }
 
 .jobbragomb{
+    background-color: none;
     height: 20px;
     width: 20px;
     border-radius: 100%;
@@ -251,13 +266,21 @@ button {
 }
 
 .tisztitas_main{
+    
     border-radius: 20px;
     background-color: white;
     width: 450px;
     height: 250px;
     margin-top: 50px;
 }
-
+.tisztitas2_main{
+    box-shadow: 0px 0px 20px 1px lightgray;
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    margin-top: 50px;
+}
 .porszivo_png{
     position: absolute;
     margin-left: 20px;
@@ -272,6 +295,17 @@ button {
 
 
 .karbantartas_main{
+    
+    margin-top: 50px;
+    
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 250px;
+}
+
+.karbantartas2_main{
+    box-shadow: 0px 0px 20px 1px lightgray;
     margin-top: 50px;
     
     border-radius: 20px;
@@ -285,4 +319,1202 @@ button {
     position: absolute;
     margin-left: 20px;
     margin-bottom: 10px;
+}
+
+
+
+.szivattyuContainer_div{
+    width: 100vw;
+    height: 700px;
+    background-color: #F8F9FA;
+}
+
+.szivattyText_div{
+    margin: 0;
+    padding-top: 60px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #072739;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.elerheto_klimak{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #072739;
+    
+}
+
+.compLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #F8F9FA;
+    border-radius: 30px;
+}
+
+.gree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+.midea{
+    
+    margin-right: 70px;
+    size: 50px;
+}
+
+.daikin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 70px;
+}
+
+.lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.mitsu{
+    
+    margin-right: 70px;
+}
+
+.product_main{
+    height: 1200px;
+}
+
+.product_mainText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+    font-size: 45px;
+    color: #072739;
+
+    padding-top: 100px;
+}
+
+.product_slideButton_left{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+    padding-top: 500px;
+    margin-left: 180px;
+}
+
+
+.product_slideButton_right{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+    padding-top: 500px;
+    margin-right: 180px;
+}
+
+.product_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productKlima_div1{
+    width: 440px;
+    height: 250px;
+    margin: 40px;
+    
+
+    background-color: white;
+}
+.productKlima_div2{
+    width: 440px;
+    height: 250px;
+    margin: 40px;
+    
+
+    background-color: white;
+}
+.productKlima_div3{
+    width: 440px;
+    height: 250px;
+    margin: 40px;
+    
+
+    background-color: white;
+}
+
+
+
+.productKlima_main{
+    box-shadow: 0px 0px 20px 1px lightgray;
+    border-radius: 20px;
+    background-color: white;
+    width: 450px;
+    height: 800px;
+}
+
+
+.legkondiReal{
+    position: relative;
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.productklimaText2{
+    margin: 0;
+    padding: 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808185;
+    padding-left: 25px;
+    word-spacing: normal;
+    line-height: 5px;
+}
+
+.klimaText_span{
+    margin: 0px;
+    padding: 0px;
+
+    line-height: 5px;
+}
+
+.product_descrption{
+    margin: 0;
+    padding: 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808185;
+    padding-left: 25px;
+    word-spacing: normal;
+    line-height: 3px;
+}
+
+.product_price1{
+    padding-top: 50px;
+    padding-left: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #072739;
+}
+
+.product_price2{
+    padding-top: 50px;
+    padding-left: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #072739;
+}
+
+
+
+
+.product_price3{
+    padding-top: 19px;
+    padding-left: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #072739;
+}
+
+.product_afa{
+    font-size: 18px;
+    color: #808185;
+    font-weight: 100;
+}
+
+
+.fa-regular fa-circle-check{
+    background-color: black;
+}
+
+.arajanlat_bt1{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    
+    background-color: #F5943A;
+    border-radius: 34px;
+    color: white;
+}
+
+
+.arajanlat_bt2{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    
+    background-color: #F5943A;
+    border-radius: 34px;
+    color: white;
+}
+
+
+.arajanlat_bt3{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    
+    background-color: #F5943A;
+    border-radius: 34px;
+    color: white;
+}
+
+.arajanlat_bt1:hover{
+    background-color: rgb(199, 130, 0);
+}
+
+.arajanlat_bt2:hover{
+    background-color: rgb(199, 130, 0);
+}
+
+.arajanlat_bt3:hover{
+    background-color: rgb(199, 130, 0);
+}
+
+.product_chose_bt{
+    border-radius: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.product_chose_bt:hover{
+    background-color: #808185;
+}
+
+.helpbox_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.helpbox1{
+    margin: 40px;
+    border-radius: 20px;
+    position: relative;
+    width: 450px;
+    height: 500px;
+
+    background: 
+        linear-gradient(to top, rgba(7, 39, 57), rgba(18, 92, 135,0)), 
+        url('helpbox_airconditioner1.jpg') no-repeat center center;
+    background-size: cover;
+    
+}
+
+.helpbox2{
+    margin: 40px;
+    border-radius: 20px;
+    position: relative;
+    width: 450px;
+    height: 500px;
+
+    background: 
+        linear-gradient(to top, rgba(7, 39, 57), rgba(18, 92, 135,0)), 
+        url('helpbox_airconditioner2.jpg') no-repeat center center;
+    background-size: cover;
+    
+}
+
+.helpbox3{
+    margin: 40px;
+    border-radius: 20px;
+    position: relative;
+    width: 450px;
+    height: 500px;
+
+    background: 
+        linear-gradient(to top, rgba(7, 39, 57), rgba(18, 92, 135,0)), 
+        url('helpbox_airconditioner3.jpg') no-repeat center center;
+    background-size: cover;
+    
+}
+
+.helpbox_Text{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 20px;
+    font-weight: 100;
+    padding-top: 75%;
+    
+}
+
+
+.helpbox_subText{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+
+.tervezes_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    font-family: sans-serif;
+    font-size: 45px;
+    color: #072739;
+    
+
+}
+
+.tervezes_text p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.mainparent_container{
+    background-color: #F8F9FA;
+    
+}
+
+.parent_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 100px;
+}
+
+.mainparent_csaladihazak{
+    
+    
+    
+}
+
+.parent_csaladihazak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.csaladihazak_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1400px;
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px lightgray;
+    background-color: #ffff;
+    
+}
+
+.csaladihazak_textContainer{
+    width: 400px;
+    height: 550px;
+    background-color: #072739;
+    margin:30px;
+    border-radius: 20px;
+}
+
+.csaladihazak_textContainer2{
+    width: 400px;
+    height: 550px;
+    background-color: #D9EBF6;
+    margin:30px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+.csaladihazak_textContainer p{
+    color: white;
+    font-family: sans-serif;
+}
+
+.csaladihazak_textContainer2 p{
+    color: #072739;
+    font-family: sans-serif;
+}
+
+.csaladihazak_text{
+    padding: 15px;
+    padding-left: 20px;
+    padding-top: 20%;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.csaladihazak_text2{
+    padding: 15px;
+    padding-left: 20px;
+    padding-top: 20%;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.csaladihazak_subtext{
+    padding-left: 20px;
+    
+    font-size: 16px;
+}
+
+.csaladihazak_subtext2{
+    padding-left: 20px;
+    
+    font-size: 16px;
+}
+
+.csaladihazak_imgContainer{
+    width: 900px;
+    height: 550px;
+   
+    margin:30px;
+    border-radius: 20px;
+
+    background: 
+        url('csaladihazak.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+
+
+.csaladihazak_imgContainer2{
+    width: 900px;
+    height: 550px;
+   
+    margin:30px;
+    border-radius: 20px;
+
+    background: 
+        url('legkonditeto.jpeg') no-repeat center center;
+    background-size: cover;
+
+}
+
+.csalad_text_button{
+    margin-left: 20px;
+    margin-top: 150px;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #D9EBF6;
+    border-radius: 50px;
+    color: #072739;
+}
+
+.csalad_text_button:hover{
+    background-color: #85bbdd;
+}
+
+
+.csalad_text_button2{
+    margin-left: 20px;
+    margin-top: 150px;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #072739 ;
+    border-radius: 50px;
+    color: #ffff;
+}
+
+.csalad_text_button2:hover{
+    background-color: #85bbdd;
+    color: #072739;
+}
+
+.partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100vw;
+    height: 250px;
+}
+
+
+.partner p{
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #072739;
+    text-align: center;
+}
+
+
+.mainContainer_dir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.content_conainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 1400px;
+    height: 750px;
+    border-radius: 20px;
+    background-color: #072739;
+}
+
+.text_container{
+    
+    width: 700px;
+    height: 650px;
+    margin-right: 130px;
+    margin: 60px;
+    
+}
+
+.head_text{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.sub_text{
+    font-family: sans-serif;
+    font-size: 18px;
+    
+    color: white;
+    padding-bottom: 40px;
+}
+
+.description_container{
+    font-family: sans-serif;
+    font-size: 18px;
+    
+    height: 100px;
+    color: white;
+}
+
+.description_container p {
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
+    
+}
+
+.description_container i{
+    width: 19px;
+    height: 18px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+   
+    border-radius: 100%;
+    
+    background: #D9EBF6 0% 0% no-repeat padding-box;
+    color: #072739;
+    
+    
+    
+    
+}
+
+.image_container{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 580px;
+    height: 750px;
+    background: 
+        linear-gradient(to top, rgba(7, 39, 57), rgba(18, 92, 135,0)), 
+        url('aircondFix3.png') no-repeat center center;
+    background-size: cover;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.image_container img{
+    width: 580px;
+    height: 750px;
+    border-right: 20px;
+    
+    border-top-right-radius: 20px; 
+  border-bottom-right-radius: 20px;
+
+  
+}
+
+
+.image_container p{
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: left;
+    color: white;
+    
+    padding-top: 100%;
+    padding-right: 60px;
+}
+
+.Kapcsolat_bt{
+    
+    margin-top: 120px;
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #D9EBF6;
+    border-radius: 50px;
+    color: #072739;
+}
+
+.Kapcsolat_bt:hover{
+    background-color: #85bbdd;
+}
+
+
+.chose_container{
+    height: 1100px;
+    background-color: #F8F9FA;
+}
+
+.ch_text1{
+    color: #072739;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ch_text2{
+    color: #072739;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.button_mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.button_container button{
+    font-family: sans-serif;
+}
+
+
+.alapbt{
+    color: white;
+    background-color: #F5943A;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 34px;
+}
+
+.kozepesbt{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    border-radius: 34px;
+    color: #072739;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.melybt{
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    border-radius: 34px;
+    color: #072739;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kozepesbt:hover{
+    background-color: #F5943A;
+    color: white;
+}
+
+.melybt:hover{
+    background-color: #F5943A;
+    color: white;
+}
+
+
+.alaptisztitas_text{
+    padding: 15px;
+    padding-top: 0px;
+    padding-left: 20px;
+    
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.alaptisztitas_subtext{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.tisztitas_slideButton_left{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+    padding-top: 0px;
+    margin-right: 40px;
+}
+
+.tisztitas_chose_bt{
+    border-radius: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.tisztitas_slideButton_right{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+    padding-top: 0px;
+    margin-left: 40px;
+}
+
+.tisztitas_chose_bt:hover{
+    background-color: gray;
+}
+
+
+.support_main_container{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ask_container{
+    
+    width: 350px;
+    height: 400px;
+    
+}
+
+.contact_container{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+
+.pick_container{
+    width: 450px;
+    height: 400px;
+}
+
+.kapcsolat1{
+    color: #072739;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.kapcsolat_main_text{
+    color: #072739;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 0;
+}
+
+.kapcsolat_subtext{
+    color:#808185;
+    font-family: sans-serif;
+    
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.contact_container input{
+    margin-bottom: 20px;
+}
+
+.input_name{
+    width: 280px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #808185;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.input_tel{
+    width: 280px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 1px solid #808185;
+    border-radius: 10px;
+}
+
+
+.input_email{
+    width: 280px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 1px solid #808185;
+    border-radius: 10px;
+}
+
+
+.input_message{
+    
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-bottom: 105px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    
+    border: 1px solid #808185;
+    border-radius: 10px;
+}
+
+.input_message::placeholder{
+    position: absolute;
+    top: 15px; 
+    left: 20px;
+    pointer-events: none;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.pick_klima{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 15px;
+    
+}
+
+ .pick_klima p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #808185;
+    margin: 5px;
+ }
+
+.pickMaintext{
+    color: #072739;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 20px;
+    margin-bottom: 0;
+    
+}
+
+.input_check_telepites{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.input_check_tisztitas{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+
+.input_check_szivattyu{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 20px;
+    margin-right: 10px;
+    
+}
+
+.input_check_hotelepites{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 20px;
+    
+    margin-left: 52px;
+}
+
+.input_check_szivargas{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 20px;
+    margin-right: 10px;
+    
+}
+
+.pick_data{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 15px;
+}
+
+.pick_data p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #808185;
+    margin: 10px;
+    
+}
+
+.checkbox_data{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.send_bt{
+    width: 150px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #F5943A;
+    border-radius: 50px;
+    color: white;
+}
+
+.send_bt:hover{
+    background-color: #b1d1e5;
+    color: #072739;
+}
+
+
+.photo_slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.photo_slide img{
+    width: 380px;
+    height: 350px;
+    margin: 0;
+    
+}
+
+footer{
+    height: auto;
+    width: 100vw;
+    background-color: #F5943A;
+    margin: 0;
+}
+
+.eger_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.eger_logo img{
+    width: 110px;
+    height: 64px;
+}
+
+.main_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_container{
+    margin-top: 30px;
+    width: 1300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    
+}
+
+
+
+.info_container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: auto;
+    height: 25px;
+    text-align: center;
+    margin-right: 40px;
+    padding-bottom: 10px;
+    padding: 0;
+    
+}
+
+.info_container button:hover{
+    color: #072739;
+}
+
+.social_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_icons p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+
+
+.social_icons img{
+    padding-right: 10px;
+}
+
+
+.main_contacts{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 50px;
+    background-color: white;
+}
+
+.contacts p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #072739;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+.contacts img{
+    padding-right: 10px;
+}
+
+.email_contact{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-right: 50px;
+}
+
+.creator{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
